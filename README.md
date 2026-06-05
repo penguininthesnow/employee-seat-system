@@ -1,1 +1,26 @@
 # employee-seat-system
+專案名稱：
+員工座位管理系統
+
+技術：
+Vue 3
+Spring Boot
+MySQL
+Maven
+
+功能：
+1. 顯示樓層座位
+2. 員工座位指派
+3. 清除座位
+4. 顯示座位狀態
+
+資料庫：
+Employee
+SeatingChart
+
+安全性：
+1. SQL Injection 防護(JPA)
+2. XSS 防護(Vue Escape)
+
+Stored Procedure：
+AssignSeat
