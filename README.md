@@ -4,7 +4,7 @@
 
 ### 座位管理畫面
 
-![系統畫面](photo/emp-photo_1.png)
+![系統畫面](photo/emp-photo_3.png)
 
 
 ---
@@ -80,7 +80,7 @@ CALL AssignSeat('10002',2);
 
 ![Stored Procedure](photo/emp-photo_2.png)
 
-![SP執行結果](photo/sp_1.png)
+![SP執行結果](photo/sp_2.png)
 
 
 ---
