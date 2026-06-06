@@ -44,3 +44,26 @@ backend/src/main/resources/application.properties
 DB/ddl.sql
 DB/dml.sql
 DB/sp.sql
+
+本專案採前後端分離架構：
+
+Frontend:
+Vue.js
+
+Backend:
+Spring Boot
+
+Database:
+MySQL
+
+執行方式：
+
+1. 啟動 MySQL
+2. 執行 Spring Boot
+3. 執行 Vue
+
+Frontend 預設使用：
+http://localhost:5173
+
+Backend API：
+http://localhost:8080
