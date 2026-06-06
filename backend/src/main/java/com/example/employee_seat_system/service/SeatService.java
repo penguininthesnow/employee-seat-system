@@ -16,14 +16,8 @@ public class SeatService {
 
     @Transactional
     public void assignSeat(String empId, Integer seatSeq) {
-
-        Employee employee =
-                employeeRepository.findById(empId)
-                        .orElseThrow();
-
-        employee.setFloorSeatSeq(seatSeq);
-
-        employeeRepository.save(employee);
+// 用stored procedure的地方(透過stored procedure存取資料庫)
+        employeeRepository.assignSeat(empId, seatSeq);
     }
 
     @Transactional
